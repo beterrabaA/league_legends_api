@@ -1,4 +1,4 @@
-package com.beterraba.lol.adapters;
+package com.beterraba.lol.adapters.out;
 
 import com.beterraba.lol.domain.model.Champion;
 import com.beterraba.lol.domain.ports.ChampionsRepository;
