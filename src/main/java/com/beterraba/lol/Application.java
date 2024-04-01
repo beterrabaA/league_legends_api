@@ -1,5 +1,6 @@
 package com.beterraba.lol;
 
+import com.beterraba.lol.application.AskChampionUseCase;
 import com.beterraba.lol.application.ListChampionsUseCase;
 import com.beterraba.lol.domain.ports.ChampionsRepository;
 import org.springframework.boot.SpringApplication;
@@ -18,9 +19,9 @@ public class Application {
 		return new ListChampionsUseCase(repository);
 	}
 
-//	@Bean
-//	public AskChampionUseCase provideAskChampionUseCase(ChampionsRepository repository) {
-//		return new AskChampionUseCase(repository);
-//	}
+	@Bean
+	public AskChampionUseCase provideAskChampionUseCase(ChampionsRepository repository) {
+		return new AskChampionUseCase(repository);
+	}
 
 }
