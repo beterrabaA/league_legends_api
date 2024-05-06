@@ -8,5 +8,5 @@ public record Champion(Long id,String name,String role,String lore,String imageU
               Role: %s
               Lore: %s
               """.formatted(question,this.name,this.role,this.lore);
-    };
+    }
 }
