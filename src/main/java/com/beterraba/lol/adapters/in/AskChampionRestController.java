@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/champions")
 public record AskChampionRestController(AskChampionUseCase useCase) {
 
+    @CrossOrigin
     @PostMapping("/{id}/ask")
     public AskChampionResponse askChampion(@PathVariable Long id, @RequestBody AskChampionRequest request) {
         String answer = useCase.askChampions(id,request.question());
