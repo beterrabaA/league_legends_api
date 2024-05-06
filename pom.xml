@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.beterraba</groupId>
 	<artifactId>league-legends</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>league-legends</name>
 	<description>API REST about league of legends</description>
 	<properties>
