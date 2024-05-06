@@ -9,3 +9,11 @@ spring:
   h2:
     console:
       enabled: true
+
+openai:
+  url: https://api.openai.com
+  api-key: ${OPENAI_SECRET_API_KEY}
+
+gemini:
+  url: https://generativelanguage.googleapis.com
+  api-key: ${GEMINI_SECRET_API_KEY}
